@@ -43,7 +43,7 @@
 	<button "javascript:takeValue();">Click here to process your order.</button>
 -->
 
-        <script> document.write(takeValue(10.0))
+        <script> document.write(takeValue(17.0))
 	</script>
 
 </body>

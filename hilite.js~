@@ -1,0 +1,17 @@
+alert("ah");
+
+function takeValue(value) {
+if (value > 20) {
+    value.fontcolor('red');
+}
+else if (value < 20 && value > 15) {
+    value.fontcolor('yellow');
+}
+else {
+    value.fontcolor('black');
+} 
+debug(value);
+};
+
+var input = prompt("Enter Number");
+takeValue(input);
